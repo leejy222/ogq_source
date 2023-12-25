@@ -53,13 +53,8 @@ const emit = defineEmits<{
                   <button @click="() => {
                       emit('delete', row)
                     }" 
-                    class="bg-red-500 text-white h-10 w-20 ml-10 py-2 mt-5 rounded-md"
+                    class="bg-red-500 text-white h-10 w-20 ml-10 mr-5 py-2 mt-5 rounded-md"
                   >삭제</button>
-                  <button @click="() => {
-                      emit('detail', row)
-                    }" 
-                  class="bg-green-500 text-white h-10 w-20 ml-10 mr-5 py-2 mt-2 rounded-md"
-                  >상세</button>
                 </slot>
             </template>
           </tr>
