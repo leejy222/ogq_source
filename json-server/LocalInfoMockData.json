@@ -1,0 +1,300 @@
+{
+    "list" :{
+        "0": [
+            {
+                "seq":  1,
+                "deptCode": "01",
+                "deptName": "서울특별시",
+                "parentDeptCode": "9999",
+                "parentDeptName": "-",
+                "deptDepth": 1,
+                "deptSort": 1
+            },
+            {
+                "seq":  2,
+                "deptCode": "02",
+                "deptName": "경기도",
+                "parentDeptCode": "9999",
+                "parentDeptName": "-",
+                "deptDepth": 1,
+                "deptSort": 2
+            },
+            {
+                "seq":  3,
+                "deptCode": "03",
+                "deptName": "강원도",
+                "parentDeptCode": "9999",
+                "parentDeptName": "-",
+                "deptDepth": 1,
+                "deptSort": 3
+            }
+        ],
+        "1": [
+            {
+                "seq":  4,
+                "deptCode": "0101",
+                "deptName": "강남구",
+                "parentDeptCode": "01",
+                "parentDeptName": "서울특별시",
+                "deptDepth": 2,
+                "deptSort": 1
+            },
+            {
+                "seq":  5,
+                "deptCode": "0102",
+                "deptName": "강동구",
+                "parentDeptCode": "01",
+                "parentDeptName": "서울특별시",
+                "deptDepth": 2,
+                "deptSort": 2
+            },
+            {
+                "seq":  6,
+                "deptCode": "0103",
+                "deptName": "강서구",
+                "parentDeptCode": "01",
+                "parentDeptName": "서울특별시",
+                "deptDepth": 2,
+                "deptSort": 3
+            },
+            {
+                "seq":  7,
+                "deptCode": "0104",
+                "deptName": "강북구",
+                "parentDeptCode": "01",
+                "parentDeptName": "서울특별시",
+                "deptDepth": 2,
+                "deptSort": 4
+            },
+            {
+                "seq":  8,
+                "deptCode": "0201",
+                "deptName": "수원시",
+                "parentDeptCode": "02",
+                "parentDeptName": "경기도",
+                "deptDepth": 2,
+                "deptSort": 1
+            },
+            {
+                "seq":  9,
+                "deptCode": "0202",
+                "deptName": "화성시",
+                "parentDeptCode": "02",
+                "parentDeptName": "경기도",
+                "deptDepth": 2,
+                "deptSort": 2
+            },
+            {
+                "seq":  10,
+                "deptCode": "0301",
+                "deptName": "강릉시",
+                "parentDeptCode": "03",
+                "parentDeptName": "강원도",
+                "deptDepth": 2,
+                "deptSort": 1
+            },
+            {
+                "seq":  11,
+                "deptCode": "0302",
+                "deptName": "춘천시",
+                "parentDeptCode": "03",
+                "parentDeptName": "강원도",
+                "deptDepth": 2,
+                "deptSort": 2
+            },
+            {
+                "seq":  12,
+                "deptCode": "0303",
+                "deptName": "원주시",
+                "parentDeptCode": "03",
+                "parentDeptName": "강원도",
+                "deptDepth": 2,
+                "deptSort": 3
+            },
+            {
+                "seq":  13,
+                "deptCode": "0304",
+                "deptName": "속초시",
+                "parentDeptCode": "03",
+                "parentDeptName": "강원도",
+                "deptDepth": 2,
+                "deptSort": 4
+            }
+        ],
+        "2": [
+            {
+                "seq":  14,
+                "deptCode": "010101",
+                "deptName": "청담동",
+                "parentDeptCode": "0101",
+                "parentDeptName": "강남구",
+                "deptDepth": 3,
+                "deptSort": 1
+            },
+            {
+                "seq":  15,
+                "deptCode": "010102",
+                "deptName": "압구정동",
+                "parentDeptCode": "0101",
+                "parentDeptName": "강남구",
+                "deptDepth": 3,
+                "deptSort": 2
+            },
+            {
+                "seq":  16,
+                "deptCode": "010103",
+                "deptName": "신사동",
+                "parentDeptCode": "0101",
+                "parentDeptName": "강남구",
+                "deptDepth": 3,
+                "deptSort": 3
+            },
+            {
+                "seq":  17,
+                "deptCode": "010201",
+                "deptName": "강일동",
+                "parentDeptCode": "0102",
+                "parentDeptName": "강동구",
+                "deptDepth": 3,
+                "deptSort": 1
+            },
+            {
+                "seq":  18,
+                "deptCode": "010202",
+                "deptName": "상일동",
+                "parentDeptCode": "0102",
+                "parentDeptName": "강동구",
+                "deptDepth": 3,
+                "deptSort": 2
+            },
+            {
+                "seq":  19,
+                "deptCode": "010301",
+                "deptName": "등촌동",
+                "parentDeptCode": "0103",
+                "parentDeptName": "강서구",
+                "deptDepth": 3,
+                "deptSort": 1
+            },
+            {
+                "seq":  20,
+                "deptCode": "010302",
+                "deptName": "염창동",
+                "parentDeptCode": "0103",
+                "parentDeptName": "강서구",
+                "deptDepth": 3,
+                "deptSort": 2
+            },
+            {
+                "seq":  21,
+                "deptCode": "010401",
+                "deptName": "수유동",
+                "parentDeptCode": "0104",
+                "parentDeptName": "강북구",
+                "deptDepth": 3,
+                "deptSort": 1
+            },
+            {
+                "seq":  22,
+                "deptCode": "010402",
+                "deptName": "미아동",
+                "parentDeptCode": "0104",
+                "parentDeptName": "강북구",
+                "deptDepth": 3,
+                "deptSort": 2
+            },
+            {
+                "seq":  23,
+                "deptCode": "020101",
+                "deptName": "영통구",
+                "parentDeptCode": "0201",
+                "parentDeptName": "수원시",
+                "deptDepth": 3,
+                "deptSort": 1
+            },
+            {
+                "seq":  24,
+                "deptCode": "020102",
+                "deptName": "팔달구",
+                "parentDeptCode": "0201",
+                "parentDeptName": "수원시",
+                "deptDepth": 3,
+                "deptSort": 2
+            },
+            {
+                "seq":  25,
+                "deptCode": "020201",
+                "deptName": "동탄신도시",
+                "parentDeptCode": "0202",
+                "parentDeptName": "화성시",
+                "deptDepth": 3,
+                "deptSort": 1
+            },
+            {
+                "seq":  26,
+                "deptCode": "020202",
+                "deptName": "봉담읍",
+                "parentDeptCode": "0202",
+                "parentDeptName": "화성시",
+                "deptDepth": 3,
+                "deptSort": 2
+            }
+        ],
+        "3": [
+            {
+                "seq":  27,
+                "deptCode": "02010101",
+                "deptName": "매탄동",
+                "parentDeptCode": "020101",
+                "parentDeptName": "영통구",
+                "deptDepth": 4,
+                "deptSort": 1
+            },
+            {
+                "seq":  28,
+                "deptCode": "02010201",
+                "deptName": "인계동",
+                "parentDeptCode": "020102",
+                "parentDeptName": "팔달구",
+                "deptDepth": 4,
+                "deptSort": 1
+            },
+            {
+                "seq":  29,
+                "deptCode": "02010202",
+                "deptName": "우만동",
+                "parentDeptCode": "020102",
+                "parentDeptName": "팔달구",
+                "deptDepth": 4,
+                "deptSort": 2
+            },
+            {
+                "seq":  30,
+                "deptCode": "02020101",
+                "deptName": "동탄1동",
+                "parentDeptCode": "020201",
+                "parentDeptName": "동탄신도시",
+                "deptDepth": 4,
+                "deptSort": 1
+            },
+            {
+                "seq":  31,
+                "deptCode": "02020102",
+                "deptName": "동탄2동",
+                "parentDeptCode": "020201",
+                "parentDeptName": "동탄신도시",
+                "deptDepth": 4,
+                "deptSort": 2
+            },
+            {
+                "seq":  32,
+                "deptCode": "02020103",
+                "deptName": "동탄3동",
+                "parentDeptCode": "020201",
+                "parentDeptName": "동탄신도시",
+                "deptDepth": 4,
+                "deptSort": 3
+            }
+        ]
+    }
+}
