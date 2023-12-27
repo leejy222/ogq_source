@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
-import PagedTable from "@/components/common/CommonTable.vue";
+import CommonTable from "@/components/common/CommonTable.vue";
 import { type Header, type LocalInfo } from '@/components/type/LocalInfoType'
 import { storeToRefs } from 'pinia';
 import { spinnerStore } from '@/stores/SpinnerStore'; 
@@ -47,7 +47,7 @@ onMounted(async () => {
     <br/>
     <article v-for="(data, index) in getGridData" :key="index">
       <article class="flex">
-        <PagedTable 
+        <CommonTable 
           v-if="index == getSelectState.depth" 
           :headers="list" 
           :data="getSelectedData"
@@ -57,7 +57,7 @@ onMounted(async () => {
           @delete="rowDelete($event)"
           >
           <template #deleteBtn />
-        </PagedTable>
+        </CommonTable>
       </article>
     </article>
   </div>
