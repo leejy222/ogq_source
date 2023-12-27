@@ -1,8 +1,3 @@
-export type Header = {
-    key: string
-    label: string
-};
-
 export interface LocalInfo {
     [x: string]: {};
     seq: number
