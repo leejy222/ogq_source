@@ -33,15 +33,15 @@ export const localInfoStore = defineStore('localInfo', () => {
     /** actions */
     // list 가져오기
     const getList = async() => {
-        spinner.isLoding(true);
+        spinner.isLoading(true);
         try {
             const result =  await fetch("http://localhost:5174/list")
             setTimeout(()=> {
-                spinner.isLoding(false);
+                spinner.isLoading(false);
             },500)
             gridData.value = await result.json()
         } catch (e: any) {
-            spinner.isLoding(false);
+            spinner.isLoading(false);
             alert(e);
         }
     }

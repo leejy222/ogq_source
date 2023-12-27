@@ -9,9 +9,9 @@ export const spinnerStore = defineStore('spinner', () => {
     const getStatus = computed(() => status.value)
     
     //actions
-    function isLoding(value:boolean) {
+    function isLoading(value:boolean) {
         return status.value = value;
     }
 
-    return {  isLoding , getStatus }
+    return {  isLoading , getStatus }
 })
