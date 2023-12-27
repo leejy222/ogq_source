@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
-import CommonTable from "@/components/common/CommonTable.vue";
-import { type Header, type LocalInfo } from '@/components/type/LocalInfoType'
+import CommonTable, { type Header } from "@/components/common/CommonTable.vue";
+import { type LocalInfo } from '@/components/type/LocalInfoType'
 import { storeToRefs } from 'pinia';
 import { spinnerStore } from '@/stores/SpinnerStore'; 
 import { localInfoStore, localInfoHeader } from '@/stores/LocalInfoStore'; 
